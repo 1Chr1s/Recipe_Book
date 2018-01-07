@@ -17,5 +17,4 @@ export class RecipesPage {
 	onNewRecipe(){ 
 		this.navCtrl.push(EditRecipePage, {Mode: 'New'});
 	}
-
 }
