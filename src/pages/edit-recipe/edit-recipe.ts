@@ -37,7 +37,7 @@ export class EditRecipePage implements OnInit{
 	}
 
 	onSubmit(){ 
-		console.log(this.recipeForm);
+		
 	}
 
 	onManageIngredients(){
