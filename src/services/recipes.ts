@@ -6,10 +6,11 @@ export class RecipeService{
 
 
 	addRecipe(title: string, description: string, difficulty: string, ingredients: Ingredient[]){ 
-		this.recipe.push(new recipe(title, description, difficulty, ingredients));
+		this.recipe.push(new Recipe(title, description, difficulty, ingredients));
+		console.log(this.recipe);
 	}
 
-	addrecipe(multiplerecipe: recipe[]){ 
+	addRecipes(multiplerecipe: Recipe[]){ 
 		this.recipe.push(...multiplerecipe)
 	}
 
